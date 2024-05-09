@@ -1,0 +1,64 @@
+body {
+    background-color: palevioletred;
+    color: white;
+   font-family: "Roboto Condensed", sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 140%;
+}
+
+header {
+    background-color:mistyrose;
+    color: palevioletred;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Додайте інші стилі тут */
+h2 {
+    font-size: 32px;
+    color:palevioletred;
+    text-align: center;
+}
+p {
+    font-size: 20px;
+    color: palevioletred;
+    font-weight: 400;
+    text-align: justify;
+}
+.card {
+    max-width: 400px;
+    background-color: mistyrose;
+    padding: 24px;
+    margin: 24px auto;
+    border-radius: 12px;
+}
+.card img {
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 12px;
+}
+header img {
+    border-radius: 24px;
+    margin-bottom: 32px;
+}
+footer {
+    background-color: mistyrose;
+    color: palevioletred;
+    padding: 12px 24px;
+}
+
+header nav{
+    margin-top: 10px;
+    
+}
+header nav a{
+    text-decoration: none;
+    margin: 12px 8px;
+    padding: 4px 8px;
+    border-radius: 8px;
+    color: #b15500;
+    background-color: white;
+    display: inline-block;
+}
